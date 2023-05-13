@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.heading {
+  text-align: center;
+  padding: 2rem;
+  background-color: dodgerblue;
+
+}
+
+.container {
+  background-color: #333;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .1rem;
+}
+
+.password {
+  background-color: #666;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: inherit;
+  padding: 1.5rem;
+  border: 0;
+  outline: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.password::placeholder {
+  color: #999;
+}
+
+.check_container {
+  display: flex;
+  align-items: center;
+  width: 4.4rem;
+  height: 4.7rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.check {
+  background-color: #777;
+  position: relative;
+  opacity: 0;
+}
+
+.icon {
+  font-size: 2rem;
+  position: absolute;
+  margin-right: 2rem;
+}
