@@ -66,6 +66,10 @@ body {
   border-bottom-right-radius: 5px;
 }
 
+.check_container:hover {
+  cursor: pointer;
+}
+
 .check {
   background-color: #777;
   position: relative;
